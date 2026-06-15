@@ -5,7 +5,7 @@ date: 2026-06-15
 lang: zh
 ---
 
-> 从 222 条内容中筛选出 25 条重要资讯。
+> 从 557 条内容中筛选出 38 条重要资讯。
 
 ---
 
@@ -21,19 +21,32 @@ lang: zh
 10. [Multi-Phase Optimization of Shared Charging Infrastructure for Freight Electrification](#item-10) ⭐️ ?/10
 11. [A green solvent screening tool for emerging materials via uncertainty aware, transformer enhanced transfer learning](#item-11) ⭐️ ?/10
 12. [Conditional spinodal decomposition in Li-Mg anodes for lithium metal batteries](#item-12) ⭐️ ?/10
-13. [Flood and Harvest: The Provable Necessity of Trivia for Generating Valuable Mathematics via the Lens of Language Generation in the Limit](#item-13) ⭐️ ?/10
-14. [CottonLeafVision: An Explainable and Robust Deep Learning Framework for Cotton Leaf Disease Classification](#item-14) ⭐️ ?/10
-15. [The Self-Aware Body: A User-Centered Framework for Designing Therapeutic Sonic Interactions](#item-15) ⭐️ ?/10
-16. [Pairwise Compatibility Representations of Multidimensional Grid Graphs](#item-16) ⭐️ ?/10
-17. [Discontinuous Galerkin approximations of the Jordan-Moore-Gibson-Thompson equation in the vanishing relaxation limit](#item-17) ⭐️ ?/10
-18. [Kia’s electric van is about to get a big brother: Here’s our first look at the PV7 (Images)](#item-18) ⭐️ ?/10
-19. [Ariel Rider Kepler review: A big, safe, fat tire commuter e-bike with style](#item-19) ⭐️ ?/10
-20. [Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators](#item-20) ⭐️ ?/10
-21. [What is a 125cc electric motorcycle and why are they so important right now?](#item-21) ⭐️ ?/10
-22. [Trump tried to kill solar’s 5% safe harbor, a federal court brought it back](#item-22) ⭐️ ?/10
-23. [Scania scores 105 unit electric semi truck deal (video)](#item-23) ⭐️ ?/10
-24. [Survey Sunday: do you still believe in Elon Musk?](#item-24) ⭐️ ?/10
-25. [Why pushback is growing against New Jersey’s crazy e-bike law](#item-25) ⭐️ ?/10
+13. [Tesla Cybercab full specs revealed: 3,113 lbs, 219 HP, 48 kWh](#item-13) ⭐️ ?/10
+14. [Ford has a ‘secret’ website for its $30,000 EV pickup, revealing a closer look](#item-14) ⭐️ ?/10
+15. [Kia’s electric van is about to get a big brother: Here’s our first look at the PV7 (Images)](#item-15) ⭐️ ?/10
+16. [Ariel Rider Kepler review: A big, safe, fat tire commuter e-bike with style](#item-16) ⭐️ ?/10
+17. [Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators](#item-17) ⭐️ ?/10
+18. [What is a 125cc electric motorcycle and why are they so important right now?](#item-18) ⭐️ ?/10
+19. [Trump tried to kill solar’s 5% safe harbor, a federal court brought it back](#item-19) ⭐️ ?/10
+20. [Scania scores 105 unit electric semi truck deal (video)](#item-20) ⭐️ ?/10
+21. [Molecularly cyclic dinucleotide-based immune stimulator-aptamer conjugate enhances systemic STING-driven antitumor immunity](#item-21) ⭐️ ?/10
+22. [H<sub>2</sub>S-free recycling of sulfide solid-state batteries via self-driven redox-coupled roasting](#item-22) ⭐️ ?/10
+23. [Plasmonic nanoplatforms for Alzheimer’s disease biomarker detection: LSPR and SERS strategies toward clinical translation](#item-23) ⭐️ ?/10
+24. [Emerging mechanical metamaterials for future civil engineering](#item-24) ⭐️ ?/10
+25. [Accelerated engineering and genetic programming of wood-based living composite materials](#item-25) ⭐️ ?/10
+26. [Achieving the highest fatigue strength in Al alloys: Strengthening-homogenizing coupling strategy](#item-26) ⭐️ ?/10
+27. [An all-in-one multifunctional carbon fiber composite material using electrochemistry](#item-27) ⭐️ ?/10
+28. [Dual engineering of porosity and Co-doping enables ultrafast and stable NaNi<sub>1/3</sub>Fe<sub>1/3</sub>Mn<sub>1/3</sub>O<sub>2</sub> cathodes for sodium-ion batteries](#item-28) ⭐️ ?/10
+29. [Hydrogen-bonded aggregates in bulk polymers](#item-29) ⭐️ ?/10
+30. [Single-Ion Conducting Polymer Electrolytes for Lithium Metal Batteries](#item-30) ⭐️ ?/10
+31. [Metal-organic frameworks for controlled polymerizations](#item-31) ⭐️ ?/10
+32. [Recent advances in photodiode-type organic photodetectors: From polymer design to applications](#item-32) ⭐️ ?/10
+33. [Recent advancements in high performance organic thermoelectric polymers for sustainable development](#item-33) ⭐️ ?/10
+34. [Nanocrystal-tailored recombination for all-perovskite tandem solar modules](#item-34) ⭐️ ?/10
+35. [Bones of Iron Age skeleton were whittled into tools](#item-35) ⭐️ ?/10
+36. [Sperm quality improves in people taking potent obesity drugs](#item-36) ⭐️ ?/10
+37. [Why people should work together to shape the economy](#item-37) ⭐️ ?/10
+38. [At-home brain implant gives man with motor neuron disease his daily life back](#item-38) ⭐️ ?/10
 
 ---
 
@@ -146,51 +159,24 @@ rss · arXiv Battery (all) · 6月11日 05:52
 ---
 
 <a id="item-13"></a>
-## [Flood and Harvest: The Provable Necessity of Trivia for Generating Valuable Mathematics via the Lens of Language Generation in the Limit](https://arxiv.org/abs/2606.14688v1) ⭐️ ?/10
+## [Tesla Cybercab full specs revealed: 3,113 lbs, 219 HP, 48 kWh](https://electrek.co/2026/06/15/tesla-cybercab-epa-specs-curb-weight-battery-motor-power/) ⭐️ ?/10
 
-Flood and Harvest: The Provable Necessity of Trivia for Generating Valuable Mathematics via the Lens of Language Generation in the Limit
+Tesla Cybercab full specs revealed: 3,113 lbs, 219 HP, 48 kWh
 
-rss · arXiv Battery Recycling · 6月12日 17:52
+rss · Electrek EV & Battery · 6月15日 16:38
 
 ---
 
 <a id="item-14"></a>
-## [CottonLeafVision: An Explainable and Robust Deep Learning Framework for Cotton Leaf Disease Classification](https://arxiv.org/abs/2606.14686v1) ⭐️ ?/10
+## [Ford has a ‘secret’ website for its $30,000 EV pickup, revealing a closer look](https://electrek.co/2026/06/15/ford-has-a-secret-website-for-its-30000-electric-pickup/) ⭐️ ?/10
 
-CottonLeafVision: An Explainable and Robust Deep Learning Framework for Cotton Leaf Disease Classification
+Ford has a ‘secret’ website for its $30,000 EV pickup, revealing a closer look
 
-rss · arXiv Battery Recycling · 6月12日 17:50
+rss · Electrek EV & Battery · 6月15日 16:13
 
 ---
 
 <a id="item-15"></a>
-## [The Self-Aware Body: A User-Centered Framework for Designing Therapeutic Sonic Interactions](https://arxiv.org/abs/2606.14664v1) ⭐️ ?/10
-
-The Self-Aware Body: A User-Centered Framework for Designing Therapeutic Sonic Interactions
-
-rss · arXiv Battery Recycling · 6月12日 17:34
-
----
-
-<a id="item-16"></a>
-## [Pairwise Compatibility Representations of Multidimensional Grid Graphs](https://arxiv.org/abs/2606.14656v1) ⭐️ ?/10
-
-Pairwise Compatibility Representations of Multidimensional Grid Graphs
-
-rss · arXiv Battery Recycling · 6月12日 17:20
-
----
-
-<a id="item-17"></a>
-## [Discontinuous Galerkin approximations of the Jordan-Moore-Gibson-Thompson equation in the vanishing relaxation limit](https://arxiv.org/abs/2606.14655v1) ⭐️ ?/10
-
-Discontinuous Galerkin approximations of the Jordan-Moore-Gibson-Thompson equation in the vanishing relaxation limit
-
-rss · arXiv Battery Recycling · 6月12日 17:20
-
----
-
-<a id="item-18"></a>
 ## [Kia’s electric van is about to get a big brother: Here’s our first look at the PV7 (Images)](https://electrek.co/2026/06/15/kias-ev-van-getting-big-brother-first-look-pv7-images/) ⭐️ ?/10
 
 Kia’s electric van is about to get a big brother: Here’s our first look at the PV7 [Images]
@@ -199,7 +185,7 @@ rss · Electrek EV & Battery · 6月15日 14:22
 
 ---
 
-<a id="item-19"></a>
+<a id="item-16"></a>
 ## [Ariel Rider Kepler review: A big, safe, fat tire commuter e-bike with style](https://electrek.co/2026/06/15/ariel-rider-kepler-review-a-big-safe-fat-tire-commuter-e-bike-with-style/) ⭐️ ?/10
 
 Ariel Rider Kepler review: A big, safe, fat tire commuter e-bike with style
@@ -208,7 +194,7 @@ rss · Electrek EV & Battery · 6月15日 14:07
 
 ---
 
-<a id="item-20"></a>
+<a id="item-17"></a>
 ## [Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators](https://electrek.co/2026/06/15/tesla-fsd-misleading-safety-data-european-regulators/) ⭐️ ?/10
 
 Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators
@@ -217,7 +203,7 @@ rss · Electrek EV & Battery · 6月15日 13:27
 
 ---
 
-<a id="item-21"></a>
+<a id="item-18"></a>
 ## [What is a 125cc electric motorcycle and why are they so important right now?](https://electrek.co/2026/06/14/what-is-a-125cc-electric-motorcycle-and-why-are-they-so-important-right-now/) ⭐️ ?/10
 
 What is a 125cc electric motorcycle and why are they so important right now?
@@ -226,7 +212,7 @@ rss · Electrek EV & Battery · 6月15日 05:47
 
 ---
 
-<a id="item-22"></a>
+<a id="item-19"></a>
 ## [Trump tried to kill solar’s 5% safe harbor, a federal court brought it back](https://electrek.co/2026/06/14/trump-tried-to-kill-solars-5-safe-harbor-a-federal-court-brought-it-back/) ⭐️ ?/10
 
 Trump tried to kill solar’s 5% safe harbor, a federal court brought it back
@@ -235,7 +221,7 @@ rss · Electrek EV & Battery · 6月14日 20:22
 
 ---
 
-<a id="item-23"></a>
+<a id="item-20"></a>
 ## [Scania scores 105 unit electric semi truck deal (video)](https://electrek.co/2026/06/14/scania-scores-105-unit-electric-semi-truck-deal-video/) ⭐️ ?/10
 
 Scania scores 105 unit electric semi truck deal [video]
@@ -244,20 +230,164 @@ rss · Electrek EV & Battery · 6月14日 19:25
 
 ---
 
+<a id="item-21"></a>
+## [Molecularly cyclic dinucleotide-based immune stimulator-aptamer conjugate enhances systemic STING-driven antitumor immunity](https://www.sciencedirect.com/science/article/pii/S1369702126002695?dgcid=rss_sd_all) ⭐️ ?/10
+
+Molecularly cyclic dinucleotide-based immune stimulator-aptamer conjugate enhances systemic STING-driven antitumor immunity
+
+rss · Materials Today · 9月16日 00:00
+
+---
+
+<a id="item-22"></a>
+## [H<sub>2</sub>S-free recycling of sulfide solid-state batteries via self-driven redox-coupled roasting](https://www.sciencedirect.com/science/article/pii/S1369702126002737?dgcid=rss_sd_all) ⭐️ ?/10
+
+H<sub>2</sub>S-free recycling of sulfide solid-state batteries via self-driven redox-coupled roasting
+
+rss · Materials Today · 9月16日 00:00
+
+---
+
+<a id="item-23"></a>
+## [Plasmonic nanoplatforms for Alzheimer’s disease biomarker detection: LSPR and SERS strategies toward clinical translation](https://www.sciencedirect.com/science/article/pii/S1369702126002749?dgcid=rss_sd_all) ⭐️ ?/10
+
+Plasmonic nanoplatforms for Alzheimer’s disease biomarker detection: LSPR and SERS strategies toward clinical translation
+
+rss · Materials Today · 9月16日 00:00
+
+---
+
 <a id="item-24"></a>
-## [Survey Sunday: do you still believe in Elon Musk?](https://electrek.co/2026/06/14/survey-sunday-do-you-still-believe-in-elon-musk/) ⭐️ ?/10
+## [Emerging mechanical metamaterials for future civil engineering](https://www.sciencedirect.com/science/article/pii/S1369702126002658?dgcid=rss_sd_all) ⭐️ ?/10
 
-Survey Sunday: do you still believe in Elon Musk?
+Emerging mechanical metamaterials for future civil engineering
 
-rss · Electrek EV & Battery · 6月14日 18:30
+rss · Materials Today · 9月16日 00:00
 
 ---
 
 <a id="item-25"></a>
-## [Why pushback is growing against New Jersey’s crazy e-bike law](https://electrek.co/2026/06/13/why-pushback-is-growing-against-new-jerseys-crazy-e-bike-law/) ⭐️ ?/10
+## [Accelerated engineering and genetic programming of wood-based living composite materials](https://www.sciencedirect.com/science/article/pii/S1369702126002701?dgcid=rss_sd_all) ⭐️ ?/10
 
-Why pushback is growing against New Jersey’s crazy e-bike law
+Accelerated engineering and genetic programming of wood-based living composite materials
 
-rss · Electrek EV & Battery · 6月14日 06:19
+rss · Materials Today · 9月16日 00:00
+
+---
+
+<a id="item-26"></a>
+## [Achieving the highest fatigue strength in Al alloys: Strengthening-homogenizing coupling strategy](https://www.sciencedirect.com/science/article/pii/S1369702126002646?dgcid=rss_sd_all) ⭐️ ?/10
+
+Achieving the highest fatigue strength in Al alloys: Strengthening-homogenizing coupling strategy
+
+rss · Materials Today · 9月16日 00:00
+
+---
+
+<a id="item-27"></a>
+## [An all-in-one multifunctional carbon fiber composite material using electrochemistry](https://www.sciencedirect.com/science/article/pii/S1369702126002683?dgcid=rss_sd_all) ⭐️ ?/10
+
+An all-in-one multifunctional carbon fiber composite material using electrochemistry
+
+rss · Materials Today · 9月16日 00:00
+
+---
+
+<a id="item-28"></a>
+## [Dual engineering of porosity and Co-doping enables ultrafast and stable NaNi<sub>1/3</sub>Fe<sub>1/3</sub>Mn<sub>1/3</sub>O<sub>2</sub> cathodes for sodium-ion batteries](https://www.sciencedirect.com/science/article/pii/S1369702126002543?dgcid=rss_sd_all) ⭐️ ?/10
+
+Dual engineering of porosity and Co-doping enables ultrafast and stable NaNi<sub>1/3</sub>Fe<sub>1/3</sub>Mn<sub>1/3</sub>O<sub>2</sub> cathodes for sodium-ion batteries
+
+rss · Materials Today · 9月16日 00:00
+
+---
+
+<a id="item-29"></a>
+## [Hydrogen-bonded aggregates in bulk polymers](https://www.sciencedirect.com/science/article/pii/S0079670026000705?dgcid=rss_sd_all) ⭐️ ?/10
+
+Hydrogen-bonded aggregates in bulk polymers
+
+rss · Progress in Polymer Science · 8月16日 00:00
+
+---
+
+<a id="item-30"></a>
+## [Single-Ion Conducting Polymer Electrolytes for Lithium Metal Batteries](https://www.sciencedirect.com/science/article/pii/S0079670026000699?dgcid=rss_sd_all) ⭐️ ?/10
+
+Single-Ion Conducting Polymer Electrolytes for Lithium Metal Batteries
+
+rss · Progress in Polymer Science · 8月16日 00:00
+
+---
+
+<a id="item-31"></a>
+## [Metal-organic frameworks for controlled polymerizations](https://www.sciencedirect.com/science/article/pii/S0079670026000614?dgcid=rss_sd_all) ⭐️ ?/10
+
+Metal-organic frameworks for controlled polymerizations
+
+rss · Progress in Polymer Science · 7月16日 00:00
+
+---
+
+<a id="item-32"></a>
+## [Recent advances in photodiode-type organic photodetectors: From polymer design to applications](https://www.sciencedirect.com/science/article/pii/S0079670026000523?dgcid=rss_sd_all) ⭐️ ?/10
+
+Recent advances in photodiode-type organic photodetectors: From polymer design to applications
+
+rss · Progress in Polymer Science · 7月16日 00:00
+
+---
+
+<a id="item-33"></a>
+## [Recent advancements in high performance organic thermoelectric polymers for sustainable development](https://www.sciencedirect.com/science/article/pii/S0079670026000547?dgcid=rss_sd_all) ⭐️ ?/10
+
+Recent advancements in high performance organic thermoelectric polymers for sustainable development
+
+rss · Progress in Polymer Science · 7月16日 00:00
+
+---
+
+<a id="item-34"></a>
+## [Nanocrystal-tailored recombination for all-perovskite tandem solar modules](https://www.nature.com/articles/s41586-026-10768-1) ⭐️ ?/10
+
+Nanocrystal-tailored recombination for all-perovskite tandem solar modules
+
+rss · Nature · 6月15日 00:00
+
+---
+
+<a id="item-35"></a>
+## [Bones of Iron Age skeleton were whittled into tools](https://www.nature.com/articles/d41586-026-01833-w) ⭐️ ?/10
+
+Bones of Iron Age skeleton were whittled into tools
+
+rss · Nature · 6月15日 00:00
+
+---
+
+<a id="item-36"></a>
+## [Sperm quality improves in people taking potent obesity drugs](https://www.nature.com/articles/d41586-026-01867-0) ⭐️ ?/10
+
+Sperm quality improves in people taking potent obesity drugs
+
+rss · Nature · 6月15日 00:00
+
+---
+
+<a id="item-37"></a>
+## [Why people should work together to shape the economy](https://www.nature.com/articles/d41586-026-01889-8) ⭐️ ?/10
+
+Why people should work together to shape the economy
+
+rss · Nature · 6月15日 00:00
+
+---
+
+<a id="item-38"></a>
+## [At-home brain implant gives man with motor neuron disease his daily life back](https://www.nature.com/articles/d41586-026-01863-4) ⭐️ ?/10
+
+At-home brain implant gives man with motor neuron disease his daily life back
+
+rss · Nature · 6月15日 00:00
 
 ---

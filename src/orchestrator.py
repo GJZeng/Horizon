@@ -22,6 +22,7 @@ from .scrapers.twitter import TwitterScraper
 from .scrapers.twitter_playwright import TwitterPlaywrightScraper
 from .scrapers.openbb import OpenBBScraper
 from .scrapers.ossinsight import OSSInsightScraper
+from .scrapers.inoreader import InoreaderScraper
 from .ai.client import create_ai_client
 from .ai.analyzer import ContentAnalyzer
 from .ai.summarizer import DailySummarizer
@@ -253,7 +254,12 @@ class HorizonOrchestrator:
         Returns:
             List[ContentItem]: All fetched items
         """
-        async with httpx.AsyncClient(timeout=30.0) as client:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.5",
+        }
+        async with httpx.AsyncClient(timeout=30.0, headers=headers) as client:
             tasks = []
 
             # GitHub sources
@@ -299,6 +305,11 @@ class HorizonOrchestrator:
             if self.config.sources.ossinsight and self.config.sources.ossinsight.enabled:
                 oss_scraper = OSSInsightScraper(self.config.sources.ossinsight, client)
                 tasks.append(self._fetch_with_progress("OSS Insight", oss_scraper, since))
+
+            # Inoreader API
+            if self.config.sources.inoreader.enabled:
+                ino_scraper = InoreaderScraper(self.config.sources.inoreader, client)
+                tasks.append(self._fetch_with_progress("Inoreader", ino_scraper, since))
 
             # Fetch all concurrently
             results = await asyncio.gather(*tasks, return_exceptions=True)

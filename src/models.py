@@ -17,6 +17,7 @@ class SourceType(str, Enum):
     TWITTER = "twitter"
     OPENBB = "openbb"
     OSSINSIGHT = "ossinsight"
+    INOREADER = "inoreader"
 
 
 class ContentItem(BaseModel):
@@ -138,6 +139,15 @@ class RSSSourceConfig(BaseModel):
     url: HttpUrl
     enabled: bool = True
     category: Optional[str] = None
+
+
+class InoreaderConfig(BaseModel):
+    """Inoreader API source configuration."""
+
+    enabled: bool = False
+    email_env: str = "INOREADER_EMAIL"
+    password_env: str = "INOREADER_PASSWORD"
+    fetch_limit: int = 100
 
 
 class RedditSubredditConfig(BaseModel):
@@ -270,6 +280,7 @@ class SourcesConfig(BaseModel):
     github: List[GitHubSourceConfig] = Field(default_factory=list)
     hackernews: HackerNewsConfig = Field(default_factory=HackerNewsConfig)
     rss: List[RSSSourceConfig] = Field(default_factory=list)
+    inoreader: InoreaderConfig = Field(default_factory=InoreaderConfig)
     reddit: RedditConfig = Field(default_factory=RedditConfig)
     telegram: TelegramConfig = Field(default_factory=TelegramConfig)
     twitter: Optional[TwitterConfig] = None
