@@ -107,7 +107,7 @@ class HorizonOrchestrator:
             threshold = self.config.filtering.ai_score_threshold
             important_items = [
                 item for item in analyzed_items
-                if item.ai_score and item.ai_score >= threshold
+                if item.ai_score is not None and item.ai_score >= threshold
             ]
             important_items.sort(key=lambda x: x.ai_score or 0, reverse=True)
 
@@ -651,38 +651,51 @@ class HorizonOrchestrator:
         await analyzer.analyze_batch(expanded)
 
     async def _enrich_important_items(self, items: List[ContentItem]) -> None:
-        """Enrich items with background knowledge (2nd AI pass).
-
-        For each item that passed the score threshold, call AI to generate
-        background knowledge based on the item's actual content.
-
-        Args:
-            items: Important items to enrich (modified in-place)
-        """
+        """Enrich items with background knowledge, skipping if AI unavailable."""
         if not items:
             return
 
+        # Skip enrichment if AI was unavailable during scoring
+        if items[0].ai_reason == "AI unavailable":
+            self.console.print("[yellow]⚠️  AI unavailable, skipping enrichment.[/yellow]")
+            return
+
         self.console.print("📚 Enriching with background knowledge...")
-        ai_client = create_ai_client(self.config.ai)
-        enricher = ContentEnricher(ai_client)
-        await enricher.enrich_batch(items)
-        self.console.print(f"   Enriched {len(items)} items\n")
+        try:
+            ai_client = create_ai_client(self.config.ai)
+            enricher = ContentEnricher(ai_client)
+            await enricher.enrich_batch(items)
+            self.console.print(f"   Enriched {len(items)} items\n")
+        except Exception as e:
+            self.console.print(f"[yellow]⚠️  Enrichment unavailable ({e}). Skipping enrichment.[/yellow]")
 
     async def _analyze_content(self, items: List[ContentItem]) -> List[ContentItem]:
-        """Analyze content items with AI.
-
-        Args:
-            items: Items to analyze
-
-        Returns:
-            List[ContentItem]: Analyzed items
-        """
+        """Analyze content items with AI, falling back to default scores if unavailable."""
         self.console.print("🤖 Analyzing content with AI...")
 
-        ai_client = create_ai_client(self.config.ai)
-        analyzer = ContentAnalyzer(ai_client)
+        # Quick probe: if the first item doesn't get scored within 20s, skip AI entirely
+        try:
+            ai_client = create_ai_client(self.config.ai)
+            analyzer = ContentAnalyzer(ai_client)
+            probe = await asyncio.wait_for(
+                analyzer.analyze_batch(items[:1]), timeout=20.0
+            )
+            if not probe or probe[0].ai_score is None or probe[0].ai_reason == "Analysis failed":
+                raise RuntimeError("AI probe failed")
+        except Exception as e:
+            self.console.print(f"[yellow]⚠️  AI unavailable ({e}). Assigning default scores to all items.[/yellow]")
+            for item in items:
+                item.ai_score = 0.0
+                item.ai_summary = item.title
+                item.ai_reason = "AI unavailable"
+            return items
 
-        return await analyzer.analyze_batch(items)
+        # AI is working: score remaining items
+        self.console.print("[green]  AI probe OK, scoring remaining items...[/green]")
+        if len(items) > 1:
+            remaining = await analyzer.analyze_batch(items[1:])
+            return probe + remaining
+        return probe
 
     async def _generate_summary(
         self,

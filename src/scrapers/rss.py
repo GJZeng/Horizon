@@ -142,6 +142,21 @@ class RSSScraper(BaseScraper):
                 except Exception:
                     continue
 
+        # Some feeds (e.g. ScienceDirect) embed the date in the summary text
+        summary = entry.get("summary", "")
+        match = re.search(r"Publication\s+[Dd]ate:\s*(.+?)(?:<|$)", summary)
+        if match:
+            date_str = match.group(1).strip()
+            try:
+                return parsedate_to_datetime(date_str)
+            except Exception:
+                pass
+            try:
+                from dateutil import parser as dateutil_parser
+                return dateutil_parser.parse(date_str).replace(tzinfo=timezone.utc)
+            except Exception:
+                pass
+
         return None
 
     def _extract_content(self, entry: dict) -> str:

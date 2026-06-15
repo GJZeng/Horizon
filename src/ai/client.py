@@ -196,7 +196,7 @@ class OpenAIClient(AIClient):
         if base_url:
             kwargs["base_url"] = base_url
 
-        self.client = AsyncOpenAI(**kwargs)
+        self.client = AsyncOpenAI(timeout=30.0, max_retries=0, **kwargs)
         self.model = config.model
         self.temperature = config.temperature
         self.max_tokens = config.max_tokens
